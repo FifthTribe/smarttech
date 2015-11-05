@@ -1,0 +1,252 @@
+//Header
+.header-main {
+  .logo-block {
+    span {
+      color: white;
+    }
+  }
+}
+
+.ow-navigation {
+  .container {
+    .call-box {
+      background-color: #27a6e1;
+      -moz-box-shadow: inset 0 3px 0px #2191c5;
+      -webkit-box-shadow: inset 0 3px 0px #2191c5;
+      box-shadow: inset 0 3px 0px #2191c5;
+    }
+  }
+}
+
+//Banner 
+.banner {
+  height: 600px;
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+  color: white;
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  h1 {
+    font-size: 44px;
+    span {
+      font-weight: 600;
+    }
+    margin-bottom: 30px;
+    animation: slidein 2s 1s;
+    -moz-animation: slidein 2s 1s;
+    -o-animation: slidein 2s 1s;
+    -webkit-animation: slidein 2s 1s;
+  }
+  .need {
+    width: 290px;
+    background-color: rgba(105, 188, 228, .15);
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 10px 30px;
+    display: table;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    border-left: 4px solid rgba(105, 188, 228, .5);
+    img {
+      display: inline;
+      max-width: 20px;
+      margin-right: 20px;
+    }
+    animation: slidein 2s 1s;
+    -moz-animation: slidein 2s 1s;
+    -o-animation: slidein 2s 1s;
+    -webkit-animation: slidein 2s 1s;
+  }
+}
+
+
+/* Keyframes */
+
+@keyframes slidein {
+  0% {
+    margin-top: 60px;
+  }
+  100% {
+    margin-top: 20px;
+  }
+}
+
+@-webkit-keyframes slidein {
+  0% {
+    margin-top: 60px;
+  }
+  100% {
+    margin-top: 20px;
+  }
+}
+
+@-moz-keyframes slidein {
+  0% {
+    margin-top: 60px;
+  }
+  100% {
+    margin-top: 20px;
+  }
+}
+
+@-o-keyframes slidein {
+  0% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: 20px;
+  }
+}
+
+//Our services 
+.choose-us {
+  background-color: #ebf9ff;
+}
+
+.our-services {
+  .choose-us-box {
+    margin-bottom: 100px;
+  }
+  .choose-us-content-box {
+    h3 {
+      font-size: 16px;
+      color: #F75237;
+      font-weight: 400;
+    }
+    p {
+      margin-bottom: 0;
+      line-height: 18px;
+    }
+  }
+}
+
+//Cover
+.we-cover {
+  background-attachment: fixed;
+  background-image: url(../images/we-cover.jpg);
+  background-size: cover;
+  padding: 30px 0;
+  h3 {
+    padding-left: 15px;
+    font-size: 24px;
+    color: white;
+    font-weight: 300;
+    margin-top: 0;
+  }
+  .state {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+  }
+}
+
+//Stand-out
+.why-us {
+  background-image: url(../images/stand-out.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.stand-out {
+  h3 {
+    font-weight: 400;
+    font-size: 30px;
+    color: black;
+    margin-bottom: 0;
+  }
+  h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 60px;
+    font-weight: 600;
+    color: #27a6e1;
+  }
+}
+
+.why {
+  ul {
+    list-style: none;
+  }
+  li {
+    font-weight: 300;
+    font-size: 26px;
+    padding-bottom: 15px;
+    span {
+      color: #F75237;
+      font-weight: 400;
+    }
+    .fa {
+      padding-right: 10px;
+      color: rgba(0, 0, 0, .7)
+    }
+  }
+}
+
+//Testimonial
+.testimonials {
+  background-attachment: fixed;
+  background-image: url(../images/we-cover.jpg);
+  background-size: cover;
+  .section-header-white {
+    margin-bottom: 20px;
+  }
+}
+
+.testimonial-box {
+  background-color: rgba(97, 181, 220, .6);
+  border: 1px solid rgba(97, 181, 220, 1);
+  margin: 15px;
+  padding: 25px;
+  p {
+    color: white;
+    font-size: 14px;
+    font-size: 300;
+  }
+  h6 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
+
+//Contact
+.contact-form {
+  h6 {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  p {
+    font-size: 16px;
+  }
+  .fa {
+    color: #27a6e1;
+  }
+}
+
+//Footer 
+.footer {
+  padding: 20px 0;
+  background-color: #1c2b30;
+  img {
+    max-width: 220px;
+  }
+  .footer-logo {
+    display: inline-block;
+    float: left;
+    margin-right: 30px;
+  }
+  .footer-text {
+    display: inline-block;
+    p {
+      margin-top: 15px;
+      margin-bottom: 0;
+      color: rgba(255, 255, 255, .6)
+    }
+  }
+}
