@@ -8,7 +8,7 @@
  * The script will try to use PHP's mail() function,
  * so if it is not properly configured it will fail silently (no error).
  */
-$mailTo     = 'email@example.com';
+$mailTo     = 'dvance@smarttechservices.com';
 
 /**
  * Set the message that will be shown on success
@@ -30,7 +30,7 @@ $errorMsg   = 'Hm.. seems there is a problem, sorry!';
  */
 
 ?>
-<?php
+  <?php
 if(
     !isset($_POST['contact-name']) ||   
 	!isset($_POST['contact-email']) ||

@@ -102,9 +102,22 @@
   }
 }
 
-//Our services 
+//Our services
+.brief {
+  padding: 50px 0;
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 18px;
+  span {
+    color: #27a6e1;
+  }
+}
+
 .choose-us {
   background-color: #ebf9ff;
+  .section-header {
+    margin-bottom: 20px;
+  }
 }
 
 .our-services {
@@ -116,6 +129,7 @@
       font-size: 16px;
       color: #F75237;
       font-weight: 400;
+      text-transform: none;
     }
     p {
       margin-bottom: 0;
