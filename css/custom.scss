@@ -113,28 +113,35 @@
   }
 }
 
+.service-box {
+  background-color: white;
+}
+
 .choose-us {
   background-color: #ebf9ff;
   .section-header {
     margin-bottom: 20px;
   }
+  .row {
+    margin-bottom: 20px;
+  }
+  .section-header {
+    margin-bottom: 40px;
+  }
 }
 
-.our-services {
-  .choose-us-box {
-    margin-bottom: 100px;
-  }
-  .choose-us-content-box {
-    h3 {
-      font-size: 16px;
-      color: #F75237;
-      font-weight: 400;
-      text-transform: none;
-    }
-    p {
-      margin-bottom: 0;
-      line-height: 18px;
-    }
+.service-img {
+  max-width: 100%;
+  border-right: 2px solid #27A6E1;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.service-text {
+  h3 {
+    padding: 0px 15px;
+    font-size: 18px;
+    color: #DE302F;
   }
 }
 
@@ -161,24 +168,33 @@
 
 //Stand-out
 .why-us {
-  background-image: url(../images/stand-out.jpg);
+  background-image: url(../images/stand-out1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .stand-out {
+  padding-top: 450px;
   h3 {
     font-weight: 400;
-    font-size: 30px;
+    font-size: 50px;
     color: black;
-    margin-bottom: 0;
+    margin-bottom: 20;
   }
-  h2 {
-    margin-top: 0;
-    margin-bottom: 20px;
-    font-size: 60px;
+  span {
     font-weight: 600;
   }
+}
+
+.stand-out-box {
+  margin-top: 10px;
+  border: 1px solid #61B5DC;
+  background-color: rgba(255, 255, 255, .9);
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: #DE302F;
 }
 
 .why {
@@ -239,6 +255,14 @@
   }
   .fa {
     color: #27a6e1;
+  }
+  .form-group {
+    .form-control {
+      border-radius: 0;
+    }
+  }
+  .btn {
+    border-radius: 0;
   }
 }
 

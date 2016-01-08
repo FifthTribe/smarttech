@@ -89,142 +89,167 @@
     color: #27a6e1; }
 
 /* line 116, /Users/AnhLe/SmartTech/css/custom.scss */
+.service-box {
+  background-color: white; }
+
+/* line 120, /Users/AnhLe/SmartTech/css/custom.scss */
 .choose-us {
   background-color: #ebf9ff; }
-  /* line 118, /Users/AnhLe/SmartTech/css/custom.scss */
+  /* line 122, /Users/AnhLe/SmartTech/css/custom.scss */
   .choose-us .section-header {
     margin-bottom: 20px; }
+  /* line 125, /Users/AnhLe/SmartTech/css/custom.scss */
+  .choose-us .row {
+    margin-bottom: 20px; }
+  /* line 128, /Users/AnhLe/SmartTech/css/custom.scss */
+  .choose-us .section-header {
+    margin-bottom: 40px; }
 
-/* line 124, /Users/AnhLe/SmartTech/css/custom.scss */
-.our-services .choose-us-box {
-  margin-bottom: 100px; }
+/* line 133, /Users/AnhLe/SmartTech/css/custom.scss */
+.service-img {
+  max-width: 100%;
+  border-right: 2px solid #27A6E1;
+  padding-right: 0;
+  padding-left: 0; }
 
-/* line 128, /Users/AnhLe/SmartTech/css/custom.scss */
-.our-services .choose-us-content-box h3 {
-  font-size: 16px;
-  color: #F75237;
-  font-weight: 400;
-  text-transform: none; }
+/* line 141, /Users/AnhLe/SmartTech/css/custom.scss */
+.service-text h3 {
+  padding: 0px 15px;
+  font-size: 18px;
+  color: #DE302F; }
 
-/* line 134, /Users/AnhLe/SmartTech/css/custom.scss */
-.our-services .choose-us-content-box p {
-  margin-bottom: 0;
-  line-height: 18px; }
-
-/* line 142, /Users/AnhLe/SmartTech/css/custom.scss */
+/* line 149, /Users/AnhLe/SmartTech/css/custom.scss */
 .we-cover {
   background-attachment: fixed;
   background-image: url(../images/we-cover.jpg);
   background-size: cover;
   padding: 30px 0; }
-  /* line 147, /Users/AnhLe/SmartTech/css/custom.scss */
+  /* line 154, /Users/AnhLe/SmartTech/css/custom.scss */
   .we-cover h3 {
     padding-left: 15px;
     font-size: 24px;
     color: white;
     font-weight: 300;
     margin-top: 0; }
-  /* line 154, /Users/AnhLe/SmartTech/css/custom.scss */
+  /* line 161, /Users/AnhLe/SmartTech/css/custom.scss */
   .we-cover .state {
     font-size: 24px;
     text-transform: uppercase;
     color: white;
     font-weight: 600; }
 
-/* line 163, /Users/AnhLe/SmartTech/css/custom.scss */
+/* line 170, /Users/AnhLe/SmartTech/css/custom.scss */
 .why-us {
-  background-image: url(../images/stand-out.jpg);
+  background-image: url(../images/stand-out1.jpg);
   background-size: cover;
   background-repeat: no-repeat; }
 
-/* line 170, /Users/AnhLe/SmartTech/css/custom.scss */
-.stand-out h3 {
-  font-weight: 400;
-  font-size: 30px;
-  color: black;
-  margin-bottom: 0; }
-
 /* line 176, /Users/AnhLe/SmartTech/css/custom.scss */
-.stand-out h2 {
-  margin-top: 0;
-  margin-bottom: 20px;
-  font-size: 60px;
-  font-weight: 600; }
+.stand-out {
+  padding-top: 450px; }
+  /* line 178, /Users/AnhLe/SmartTech/css/custom.scss */
+  .stand-out h3 {
+    font-weight: 400;
+    font-size: 50px;
+    color: black;
+    margin-bottom: 20; }
+  /* line 184, /Users/AnhLe/SmartTech/css/custom.scss */
+  .stand-out span {
+    font-weight: 600; }
 
-/* line 185, /Users/AnhLe/SmartTech/css/custom.scss */
+/* line 189, /Users/AnhLe/SmartTech/css/custom.scss */
+.stand-out-box {
+  margin-top: 10px;
+  border: 1px solid #61B5DC;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: #DE302F; }
+
+/* line 201, /Users/AnhLe/SmartTech/css/custom.scss */
 .why ul {
   list-style: none; }
 
-/* line 188, /Users/AnhLe/SmartTech/css/custom.scss */
+/* line 204, /Users/AnhLe/SmartTech/css/custom.scss */
 .why li {
   font-weight: 300;
   font-size: 26px;
   padding-bottom: 15px; }
-  /* line 192, /Users/AnhLe/SmartTech/css/custom.scss */
+  /* line 208, /Users/AnhLe/SmartTech/css/custom.scss */
   .why li span {
     color: #F75237;
     font-weight: 400; }
-  /* line 196, /Users/AnhLe/SmartTech/css/custom.scss */
+  /* line 212, /Users/AnhLe/SmartTech/css/custom.scss */
   .why li .fa {
     padding-right: 10px;
     color: rgba(0, 0, 0, 0.7); }
 
-/* line 204, /Users/AnhLe/SmartTech/css/custom.scss */
+/* line 220, /Users/AnhLe/SmartTech/css/custom.scss */
 .testimonials {
   background-attachment: fixed;
   background-image: url(../images/we-cover.jpg);
   background-size: cover; }
-  /* line 208, /Users/AnhLe/SmartTech/css/custom.scss */
+  /* line 224, /Users/AnhLe/SmartTech/css/custom.scss */
   .testimonials .section-header-white {
     margin-bottom: 20px; }
 
-/* line 213, /Users/AnhLe/SmartTech/css/custom.scss */
+/* line 229, /Users/AnhLe/SmartTech/css/custom.scss */
 .testimonial-box {
   background-color: rgba(97, 181, 220, 0.6);
   border: 1px solid #61b5dc;
   margin: 15px;
   padding: 25px; }
-  /* line 218, /Users/AnhLe/SmartTech/css/custom.scss */
+  /* line 234, /Users/AnhLe/SmartTech/css/custom.scss */
   .testimonial-box p {
     color: white;
     font-size: 14px;
     font-size: 300; }
-  /* line 223, /Users/AnhLe/SmartTech/css/custom.scss */
+  /* line 239, /Users/AnhLe/SmartTech/css/custom.scss */
   .testimonial-box h6 {
     font-size: 18px;
     font-weight: 600; }
 
-/* line 231, /Users/AnhLe/SmartTech/css/custom.scss */
+/* line 247, /Users/AnhLe/SmartTech/css/custom.scss */
 .contact-form h6 {
   font-weight: 600;
   font-size: 18px;
   margin-bottom: 0;
   margin-top: 0; }
 
-/* line 237, /Users/AnhLe/SmartTech/css/custom.scss */
+/* line 253, /Users/AnhLe/SmartTech/css/custom.scss */
 .contact-form p {
   font-size: 16px; }
 
-/* line 240, /Users/AnhLe/SmartTech/css/custom.scss */
+/* line 256, /Users/AnhLe/SmartTech/css/custom.scss */
 .contact-form .fa {
   color: #27a6e1; }
 
-/* line 246, /Users/AnhLe/SmartTech/css/custom.scss */
+/* line 260, /Users/AnhLe/SmartTech/css/custom.scss */
+.contact-form .form-group .form-control {
+  border-radius: 0; }
+
+/* line 264, /Users/AnhLe/SmartTech/css/custom.scss */
+.contact-form .btn {
+  border-radius: 0; }
+
+/* line 270, /Users/AnhLe/SmartTech/css/custom.scss */
 .footer {
   padding: 20px 0;
   background-color: #1c2b30; }
-  /* line 249, /Users/AnhLe/SmartTech/css/custom.scss */
+  /* line 273, /Users/AnhLe/SmartTech/css/custom.scss */
   .footer img {
     max-width: 220px; }
-  /* line 252, /Users/AnhLe/SmartTech/css/custom.scss */
+  /* line 276, /Users/AnhLe/SmartTech/css/custom.scss */
   .footer .footer-logo {
     display: inline-block;
     float: left;
     margin-right: 30px; }
-  /* line 257, /Users/AnhLe/SmartTech/css/custom.scss */
+  /* line 281, /Users/AnhLe/SmartTech/css/custom.scss */
   .footer .footer-text {
     display: inline-block; }
-    /* line 259, /Users/AnhLe/SmartTech/css/custom.scss */
+    /* line 283, /Users/AnhLe/SmartTech/css/custom.scss */
     .footer .footer-text p {
       margin-top: 15px;
       margin-bottom: 0;
